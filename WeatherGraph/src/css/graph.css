@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+}
+path {
+    stroke-width: 1;
+    fill: none;
+}
+.graph path {
+    stroke: #e74c3c;
+}
+.graph2 path {
+    stroke: #3498db;
+}
+.axis {
+    shape-rendering: crispEdges;
+}
+.x.axis line {
+    stroke: white;
+}
+.x.axis .minor {
+    stroke-opacity: .5;
+}
+.x.axis path {
+    display: none;
+}
+.y.axis line, .y.axis path {
+    fill: none;
+    stroke: #000;
+}
+.dot {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: #e74c3c;
+    border-radius: 20px;
+}
+.dotlow {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: #3498db;
+    border-radius: 20px;
+}
+#dots {
+    /* move here */
+    position: absolute;
+    left: 20px;
+    top: 50px;
+    width: 320px;
+    height: 100px;
+    z-index: 2;
+}
+#days {
+    /* move here */
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 320px;
+    height: 100px;
+    color: white;
+}
+.day {
+    position: absolute;
+    width: 30px;
+    text-align: center;
+    font-size: 12px;
+}
+.img {
+    position: absolute;
+    width: 30px;
+}
+.temps {
+    position: absolute;
+    width: 30px;
+    text-align: center;
+    font-size: 12px;
+}
+.graph, .graph2 {
+    /* move here */
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    z-index: 1;
+}

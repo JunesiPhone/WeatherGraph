@@ -1,0 +1,20 @@
+<html>
+
+<head>
+	<script src="src/js/d3.js"></script>
+	<script src="src/js/lang.js"></script>
+	<script src="src/js/graph.js"></script>
+	<link rel="stylesheet" type="text/css" href="src/css/graph.css">
+</head>
+
+<body onload="InfoStats.init()" onunload="InfoStats.unload()">
+	<div id="dots"></div>
+	<div id="days"></div>
+	<div id="graph" class="graph"></div>
+	<div id="graph2" class="graph2"></div>
+	<script type="text/cycript">
+		var IS2W = function (info) { return eval('[IS2Weather ' + info + ']');};
+		</script>
+</body>
+
+</html>
