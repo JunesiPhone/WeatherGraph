@@ -1,6 +1,6 @@
 # WeatherGraph
 
-Weather Graph is a simple widget using IS2 to grab a forecast for 5 days. Using a stripped down version of d3.js it displays the forecast with a graph for high and low temps.
+Weather Graph is a simple widget using IS2 to grab a forecast for 5 days. Using a stripped down version of d3.js it displays the forecast with a graph (SVG) for high and low temps.
 
 Created and maintained by @JunesiPhone http://junesiphone.com
 
